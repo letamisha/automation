@@ -1,0 +1,4 @@
+ChromeDriver driverChrome = new ChromeDriver();
+		driverChrome.get("https://orange.md");
+		driverChrome.findElement(By.className("search_start_container")).click();
+		driverChrome.findElement(By.className("ais-SearchBox-input")).sendKeys("iPhone");

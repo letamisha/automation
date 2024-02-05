@@ -1,0 +1,6 @@
+ChromeDriver driverChrome = new ChromeDriver();
+		driverChrome.get("https://gorilla.md");
+		driverChrome.manage().window().maximize();
+		driverChrome.findElement(By.linkText("Garanție")).click();
+		driverChrome.findElement(By.linkText("Contacte")).click();
+		driverChrome.findElement(By.linkText("Livrare si plată")).click();

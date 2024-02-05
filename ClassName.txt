@@ -1,0 +1,4 @@
+ChromeDriver driverChrome = new ChromeDriver();
+		driverChrome.get("https://maximum.md/ro/");
+		driverChrome.manage().window().maximize();
+		driverChrome.findElement(By.className("promo_block_sale")).click();
