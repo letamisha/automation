@@ -1,3 +1,15 @@
+Feature: Utilizatorul poate plasa și anula o comandă 
+Given - Utilizatorul se află pe pagina de logare
+When - Utilizatirul se logează
+And - Utilizatorul caută produsul dorit
+And - utlizatirul completează datele pentru livrare 
+And - Utlizatorul plasează comanda
+And - Utilizatorul anulează comanda
+Then - Utilizatorul are pe profil o comandă anulată 
+
+
+
+
 package com.poki;
 
 import org.openqa.selenium.By;
